@@ -13,3 +13,38 @@ a:hover{
   object-position: 0 32%;
   height: 400px;
 }
+
+.divNome{
+   
+
+}
+
+h4 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+a{
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+  
+}
+
+.habilidadeSobre{
+  background-color: #7E459B;
+  color: white;
+}
+
+.i{
+  color: #7E459B;
+}
+
+a:hover{
+  color: #7E459B;
+}
+
+
+
