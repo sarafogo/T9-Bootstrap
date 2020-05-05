@@ -1,7 +1,15 @@
 .bg-roxo{
     background-color: #7E459B;
+    height: 80px;
 }
 
 a:hover{
   font-weight: bold;
+}
+
+
+.img-carousel{
+  object-fit: cover;
+  object-position: 0 32%;
+  height: 400px;
 }
