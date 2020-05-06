@@ -7,7 +7,6 @@ a:hover{
   font-weight: bold;
 }
 
-
 .img-carousel{
   object-fit: cover;
   object-position: 0 32%;
@@ -25,12 +24,17 @@ a{
 
 ul{
   list-style-type: none;
-  
 }
 
 .habilidadeSobre{
   background-color: #7E459B;
   color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.titulo{
+  font-size: 25px;
 }
 
 .iconeLink{
@@ -40,6 +44,8 @@ ul{
 a:hover{
   color: #7E459B;
 }
+
+
 
 
 
