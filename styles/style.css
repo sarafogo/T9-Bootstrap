@@ -1,6 +1,6 @@
 .bg-roxo{
     background-color: #7E459B;
-    height: 80px;
+    
 }
 
 a:hover{
@@ -45,7 +45,14 @@ a:hover{
   color: #7E459B;
 }
 
+h3{
+  padding: 5%;
+}
 
-
+.btn-card:hover{
+  opacity: .7;
+  background-color: #7E459B;
+  color: white;
+}
 
 
