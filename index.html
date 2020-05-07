@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-roxo">
     <div class="container">
-      <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Reprograma}</a>
+      <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Re<span class="font-weight-light">programa}</span> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop"
         aria-controls="menudesktop" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,13 @@
       <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Habilidades</a>
+            <a class="nav-link text-white" href="#Habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Portfólio</a>
+            <a class="nav-link text-white" href="#portfolio">Portfólio</a>
           </li>
         </ul>
       </div>
@@ -81,7 +81,7 @@
     </ul>
   </div>
 
-  <section class="d-flex flex-column flex-md-row justify-content-md-around  habilidadeSobre">
+  <section id="Habilidades" class="d-flex flex-column flex-md-row justify-content-md-around  habilidadeSobre">
     <div class="w-100">
       <p class="d-flex justify-content-center titulo">Habilidades</p>
       <div class="container">
@@ -138,130 +138,139 @@
       <p class="d-flex justify-content-center titulo">Sobre</p>
       <p>Aluna do bootcamp de front-end da {reprograma}</p>
       Sara Fogo, 28 anos, baiana/pernambucana, futuramente paulistana.
-      Dançarina, nerd, colorida, atriz, barista e agora programadora front-end.
+      Dançarina, nerd, colorida, atriz, barista e agora programadora front-end. 
+      Trabalhou muitos anos na área de cultura. Experiência com gestão de pessoas e trabalho em equipe.
       <br>
       <br>
-      At, sapiente!
-
-      Outras áreas de interesse: Python, UX,
+      Inglês fluente e espanhol intermadiário.
+      <br>
+      <br>
+      Outras áreas de interesse: Python, UX, 
     </div>
   </section>
 
-  <h3 class="d-flex justify-content-center">Portfólio</h3>
 
-<section class="">
+  <h3 id="portfolio" class="d-flex justify-content-center">Portfólio</h3>
+  <section class="row d-flex justify-content-center align-items-center text-align">
 
-  <!-- CARD l -->
-  <div class="m-5 card" style="width: 18rem;">
-    <img src="assets/todo.PNG" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lista de tarefas</h5>
-      <p class="card-text">Projeto feito na semana tananã do curso de front-end da {reprograma}</p>
-      <button type="button" class="m-auto btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal1">
-        Veja mais
-      </button>
-    </div>
-  </div>
-  <!-- Button trigger modal -->
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Title"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modal1Title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+    <!-- CARD l -->
+    <div class="m-5 card" style="width: 18rem;">
+      <img src="assets/todo.PNG" class="card-img-top" alt="To do list">
+      <div class="card-body">
+        <h5 class="card-title">Lista de tarefas</h5>
+        <p class="card-text">Projeto feito na semana tananã do curso de front-end da {reprograma}</p>
+        <button type="button" class="m-5 btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal1">
+          Veja mais
         </button>
       </div>
-      <div class="modal-body">
-        <p>Aqui a descrição do projeto</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
     </div>
-  </div>
-</div>
+    <!-- Button trigger modal -->
 
-<!-- CARD 2 -->
-<div class="m-5 card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-      content.</p>
-      <button type="button" class="m-5 btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal2">
-        Launch demo modal
-      </button>
+    <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Title" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal1Title">To do list</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- Button trigger modal -->
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Title"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modal2Title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+
+    <!-- CARD 2 -->
+    <div class="m-5 card" style="width: 18rem;">
+      <img src="assets/m-de-maravilhosa.jpg" class="card-img-top" alt="projeto m de maravilhosa">
+      <div class="card-body">
+        <h5 class="card-title">Projeto M de Maravilhosas</h5>
+        <p class="card-text">Criação de página para uma personalidade que inspira</p>
+        <button type="button" class="m-5 btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal2">
+          Veja mais
         </button>
       </div>
-      <div class="modal-body">
-        <p>Aqui a descrição do projeto</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Title" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal2Title">M de Maravilhosas</h5>
+            <button type="button" class="close" data-dismiss="modal2" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="assets/Jocelia.PNG" alt="" srcset="">
+            <p>Projeto feito na quarta semana de curso da {reprograma}, sob orientação de Pricila Theodoro. Cada aluna
+              escolheu uma mulher que lhe inspira e criou uma página para essa mulher, com fotos, links e textos. O site
+              foi criado de forma responsiva.
+              Foi usado o Git/Github para junção dos projetos.
+              A escolha de Sara foi Jocelia Fonseca, poetisa e militante negra.
+
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- CARD 3 -->
-<div class="m-5 card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-      content.</p>
-      <button type="button" class="m-5 btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal3">
-        Launch demo modal
-      </button>
-    </div>
-  </div>
-  <!-- Button trigger modal -->
-  
-  <!-- Modal -->
-  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Title"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modal3Title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+    <!-- CARD 3 -->
+    <div class="m-5 card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <button type="button" class="m-5 btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal3">
+          Launch demo modal
         </button>
       </div>
-      <div class="modal-body">
-        <p>Aqui a descrição do projeto</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Title" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal3Title">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Aqui a descrição do projeto</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-</section>
+  </section>
 
-<script src="./js/jquery-3.4.1.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
+  <footer class="text-white d-flex justify-content-center"><p class="pt-2 align-itens-center">Desenvolvido com Bootstrap por Sara Fogo, enquanto aluna da
+    <a class=" a-footer" href="http://reprograma.com.br" target="_blank" rel="noopener noreferrer">{reprograma} </a> 2019</p> 
+  </footer>
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
