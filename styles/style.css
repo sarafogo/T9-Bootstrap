@@ -1,11 +1,14 @@
 .bg-roxo{
-    background-color: #7E459B;
+    background-color: rgb(179, 15, 116);
     
 }
 
 a:hover{
   font-weight: bold;
+  color: #7E459B;
+  
 }
+
 
 .img-carousel{
   object-fit: cover;
@@ -27,7 +30,7 @@ ul{
 }
 
 .habilidadeSobre{
-  background-color: #7E459B;
+  background-color: rgb(179, 15, 116);
   color: white;
   padding: 30px;
   text-align: center;
@@ -38,12 +41,9 @@ ul{
 }
 
 .iconeLink{
-  color: #7E459B;
+  color: rgb(179, 15, 116);
 }
 
-a:hover{
-  color: #7E459B;
-}
 
 h3{
   padding: 5%;
@@ -55,4 +55,12 @@ h3{
   color: white;
 }
 
+footer{
+  background-color:rgb(179, 15, 116) ;
+}
+
+.a-footer{
+  color: rgb(182, 95, 226);
+  height: 45px;
+}
 
