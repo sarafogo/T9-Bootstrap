@@ -1,5 +1,20 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+nav {
+  max-height: 75px;
+}
+
+.brand-text{
+  margin-top: 40px;
+  
+}
+
+
+
 .bg-roxo{
-    background-color: rgb(179, 15, 116);
+    background-color: rgb(218, 2, 135);
     
 }
 
@@ -10,10 +25,18 @@ a:hover{
 }
 
 
+
 .img-carousel{
   object-fit: cover;
-  object-position: 0 32%;
+  object-position: 42% 42%;
   height: 400px;
+  
+}
+.inicial-content{
+  background-color: #f8e3f3;
+  margin-top: -50px;
+  margin-bottom: -15px;
+  padding: 0 45px;
 }
 
 h4 {
@@ -30,7 +53,7 @@ ul{
 }
 
 .habilidadeSobre{
-  background-color: rgb(179, 15, 116);
+  background-color: rgb(218, 2, 135);
   color: white;
   padding: 30px;
   text-align: center;
@@ -40,8 +63,25 @@ ul{
   font-size: 25px;
 }
 
+.text-modal {
+  color: rgb(85, 0, 85);
+  text-align: left;
+  margin-left: 15px;
+}
+
+li {
+  line-height: 18px;
+  margin-top: 55px;
+  margin-bottom: 35px;
+}
+
+
+.btn-xp {
+  background-color: rgb(158, 0, 158);
+}
+
 .iconeLink{
-  color: rgb(179, 15, 116);
+  color: rgb(218, 2, 135);
 }
 
 
@@ -55,8 +95,31 @@ h3{
   color: white;
 }
 
+.portfolio-content{
+  background-color: #f8e3f3;
+}
+
+.card-content {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cards {
+  width: 18rem; 
+  height: 32rem;
+}
+
+.card1{
+  height: 232px;
+}
+
+
+li{
+  text-decoration: initial;
+}
+
 footer{
-  background-color:rgb(179, 15, 116) ;
+  background-color:rgb(218, 2, 135) ;
 }
 
 .a-footer{
