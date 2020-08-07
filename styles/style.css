@@ -113,6 +113,10 @@ h3{
   height: 232px;
 }
 
+.btn-card {
+  margin-bottom: -48px;
+}
+
 
 li{
   text-decoration: initial;
