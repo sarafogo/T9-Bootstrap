@@ -11,8 +11,6 @@ nav {
   
 }
 
-
-
 .bg-roxo{
     background-color: rgb(218, 2, 135);
     
@@ -24,14 +22,13 @@ a:hover{
   
 }
 
-
-
 .img-carousel{
   object-fit: cover;
   object-position: 42% 42%;
   height: 400px;
   
 }
+
 .inicial-content{
   background-color: #f8e3f3;
   margin-top: -50px;
@@ -90,6 +87,12 @@ h3{
 }
 
 .btn-card:hover{
+  opacity: .7;
+  background-color: #7E459B;
+  color: white;
+}
+
+.btn-modal:hover{
   opacity: .7;
   background-color: #7E459B;
   color: white;

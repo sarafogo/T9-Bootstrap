@@ -39,7 +39,10 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100 img-carousel" src="assets/sara3.jpg" alt="Primeira foto de Sara">
+          <img class="d-block w-100 img-carousel" src="assets/sara3.jpg" alt="Mulher de cabelo colorido sorrindo com mão no queixo">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 img-carousel" src="assets/coding.png" alt="Mulher de cabelo colorido sorrindo para foto">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100 img-carousel" src="assets/sara350.png" alt="Terceira foto Sara">
@@ -145,7 +148,7 @@
 
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn text-white bg-roxo btn-card btn-xp" data-toggle="modal"
+        <button type="button" class="btn text-white bg-roxo btn-modal btn-xp" data-toggle="modal"
           data-target="#exampleModal">
           Experiências
         </button>
@@ -257,7 +260,8 @@
           <h5 class="card-title">M de Maravilhosas</h5>
           <p class="card-text">Projeto feito na quarta semana de curso da {reprograma}.</p>
           <p><b>Foi utilizado:</b> HTML e CSS</p>
-          <button type="button" class="btn-card btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal2">
+          <button type="button" class="btn-card btn text-white bg-roxo btn-card" data-toggle="modal"
+            data-target="#modal2">
             Veja mais
           </button>
         </div>
@@ -275,7 +279,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <img class="w-100" src="assets/Jocelia.PNG" alt="" srcset="">
+              <img class="w-100" src="assets/Jocelia.PNG" alt="pagina de Jocelia" srcset="">
               <p>Nesse projeto cada aluna escolheu uma mulher que lhe inspira e criou uma página para essa mulher, com
                 fotos, links e textos. </p>
               <p>O site foi criado de forma responsiva, usando somente HTML e CSS.</p>
@@ -291,7 +295,7 @@
               <a href="https://jocelia-fonseca.netlify.app/personalidade/jocelia%20fonseca/index.html" target="_blank"
                 rel="noopener noreferrer">
 
-                <button type="button" class="btn text-white bg-roxo btn-card">Ir para o site</button>
+                <button type="button" class="btn text-white bg-roxo btn-modal">Ir para o site</button>
               </a>
             </div>
           </div>
@@ -305,7 +309,8 @@
           <h5 class="card-title">Lista de tarefas</h5>
           <p class="card-text">Projeto feito na oitava semana de curso da {reprograma}.</p>
           <p><b>Foi utilizado:</b> HTML, CSS e JavaScript</p>
-          <button type="button" class="btn-card btn text-white bg-roxo btn-card" data-toggle="modal" data-target="#modal1">
+          <button type="button" class="btn-card btn text-white bg-roxo btn-card" data-toggle="modal"
+            data-target="#modal1">
             Veja mais
           </button>
         </div>
@@ -344,7 +349,7 @@
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
               <a href="https://todo-list-sara.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn text-white bg-roxo btn-card">Ir para o site</button>
+                <button type="button" class="btn text-white bg-roxo btn-modal">Ir para o site</button>
               </a>
             </div>
           </div>
@@ -388,14 +393,14 @@
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
               <a href="https://oyaproducoesartisticas.com.br/" target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn text-white bg-roxo btn-card">Ir para o site</button>
+                <button type="button" class="btn text-white bg-roxo btn-modal">Ir para o site</button>
               </a>
             </div>
           </div>
         </div>
       </div>
 
-       
+
 
 
       <!-- CARD 5 -->
@@ -435,8 +440,56 @@
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
               <a href="https://conexao-venus.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn text-white bg-roxo btn-card">Ir para o site</button>
+                <button type="button" class="btn text-white bg-roxo btn-modal">Ir para o site</button>
               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="m-5 card cards">
+        <img src="assets/todoAPI.png" class="card-img-top" alt="site To Do List">
+        <div class="card-body">
+          <h5 class="card-title">To Do List - API</h5>
+          <p class="card-text">Exercício de ReactJS utilizando API.</p>
+
+          <p><b>Foi utilizado: </b>React, reactstrap e CSS, fake API REST.</p>
+          <button type="button" class="btn-card btn text-white bg-roxo btn-card btn-modal" data-toggle="modal"
+            data-target="#modal6">
+            Veja mais
+          </button>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal5Title">To Do List</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="assets/listaDeTarefas.png" alt="" srcset="">
+              <p>No teste foi solicitado que uma primeira página mostrasse todos os usuários da API e ao clicar no nome
+                de um deles abrisse uma outra página mostrando sua lista de tarefas pré existente.
+              </p>
+              <p>Nessa segunda página teria que ser possível colocar novas tarefas, além de deleta-las, assim como as
+                tarefas da API.</p>
+            </div>
+            <div class="modal-footer">
+              <div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              </div>
+              <div>
+                <a href="https://sarafogo.github.io/escola-mais/" target="_blank" rel="noopener noreferrer">
+                  <button type="button" class="btn text-white bg-roxo btn-modal">Ir para o site</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
